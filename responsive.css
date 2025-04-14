@@ -1,0 +1,127 @@
+/*-------------------- 1670 --------------------*/
+
+@media (max-width: 1670px) {
+  header .right img {
+    height: 75cap;
+  }
+
+  .left h2 {
+    font-size: 5rem;
+  }
+
+  .left p {
+    font-size: 1.8rem;
+  }
+
+  body {
+    background: linear-gradient(-45deg, #f1e5d1, #c39898, #d8abad, #c4888d);
+    background-size: 400% 1100%;
+    animation: gradient 15s ease infinite;
+    overflow-x: hidden;
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+}
+
+/*-------------------- 1395 --------------------*/
+
+@media (min-width: 1440px) and (max-width: 1669px) {
+  .shop-btn {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .shop-btn {
+    margin-top: 100px;
+  }
+}
+
+/*-------------------- 1024 --------------------*/
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .naav {
+    padding: 1rem 0;
+  }
+
+  header .right img {
+    height: 60cap;
+  }
+
+  .left h2 {
+    font-size: 4rem;
+  }
+
+  .left p {
+    font-size: 1.2rem;
+  }
+
+  .shop-btn {
+    margin-top: 50px;
+  }
+
+  .about-me img {
+    height: 60cap;
+  }
+
+  .bio-title {
+    font-size: 2rem;
+    padding-bottom: 1%;
+  }
+
+  .about-me .right {
+    line-height: 25px;
+    font-size: 1rem;
+    width: 30%;
+  }
+}
+
+/*-------------------- 850 --------------------*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  header .right img {
+    height: 55cap;
+  }
+
+  .left h2 {
+    font-size: 4rem;
+  }
+
+  .left p {
+    font-size: 1.2rem;
+  }
+
+  .shop-btn {
+    margin-top: 50px;
+  }
+
+  .about-me img {
+    height: 60cap;
+  }
+
+  .bio-title {
+    font-size: 2rem;
+    padding-bottom: 1%;
+  }
+
+  .about-me .right {
+    line-height: 25px;
+    font-size: 1rem;
+    width: 30%;
+  }
+}
+
+/*-------------------- 650 --------------------*/
+
+@media (min-width: 400px) and (max-width: 767px) {
+}
